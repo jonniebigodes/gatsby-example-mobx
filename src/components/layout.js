@@ -1,10 +1,8 @@
-import React,{Component} from 'react'
+import React, { Component } from 'react'
 import { Link } from 'gatsby'
-import Counter from './Counter';
+import Counter from './Counter'
 
 import DevTools from 'mobx-react-devtools'
-
-
 
 class DefaultLayout extends Component {
   render() {
@@ -14,7 +12,7 @@ class DefaultLayout extends Component {
           <h3>MobX example</h3>
         </Link>
         <DevTools />
-        <Counter/>
+        <Counter />
         <ul>
           <li>
             <Link to="/a/">a</Link>
