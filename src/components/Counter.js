@@ -1,23 +1,20 @@
-import React, { Component } from 'react'
+import React from 'react'
+import {observer, inject} from 'mobx-react'
 
-import { observer, inject } from 'mobx-react'
-
-@inject('store')
-@observer
-class Counter extends Component {
-  constructor(props) {
-    super(props)
-  }
-  render() {
+const Counter = inject('store')(
+  observer(({store}) => {
     return (
       <>
-        <div>Count: {this.props.store.Count}</div>
+        <div>Counted to: {store.Count}</div>
         <div>
-          <button onClick={() => this.props.store.Increment()}>Add</button>
-          <button onClick={() => this.props.store.Decrement()}>Subtract</button>
+          {/* eslint-disable react/button-has-type */}
+          <button onClick={() => store.Increment()}>Add</button>
+          <button onClick={() => store.Decrement()}>Subtract</button>
+          {/* eslint-enable react/button-has-type  */}
         </div>
       </>
     )
-  }
-}
+  })
+)
+
 export default Counter

@@ -24,11 +24,11 @@
     "mobx": "^5.1.0",
     "mobx-react": "^5.2.8",
     "mobx-react-devtools": "^6.0.3",
+    "prop-types": "^15.6.2",
     "react": "^16.5.0",
     "react-dom": "^16.5.0"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-decorators": "^7.0.0",
     "babel-eslint": "^9.0.0",
     "eslint": "^5.5.0",
     "eslint-config-airbnb": "^17.1.0",
