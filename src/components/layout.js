@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import {Link} from 'gatsby'
-import DevTools from 'mobx-react-devtools'
 import Counter from './Counter'
 
 const DefaultLayout = props => {
@@ -18,7 +17,6 @@ const DefaultLayout = props => {
       <Link to="/">
         <h3>MobX example</h3>
       </Link>
-      <DevTools />
       <div>
         <Counter />
       </div>
