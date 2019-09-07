@@ -1,5 +1,5 @@
 # MOBX
-[Using mobx with gatsby](https://jonniebigodes.github.io/gatsby-example-mobx/)
+[Using mobx with gatsby](https://dazzling-meninsky-6f4ac3.netlify.com/)
 
 
 Gatsby example site that shows use of mobx.
@@ -17,9 +17,10 @@ Check out [./gatsby-ssr.js](./gatsby-ssr.js) and [./gatsby-browser.js](./gatsby-
 
 mobx-react-devtools package is now deprecated and was removed. As it could generate [this error](https://github.com/mobxjs/mobx-react-devtools/issues/117).
 
-To allow access to some form of development tools, install the plugin for your browser of choice like mentioned [here](https://github.com/mobxjs/mobx-devtools)
+To allow access to some form of development tools, install the plugin for your browser of choice like mentioned [here](https://github.com/mobxjs/mobx-devtools).
 
-[Docs](https://mobx.js.org/)
+
+[Official Documentation](https://mobx.js.org/)
 
 
 
