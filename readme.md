@@ -15,7 +15,9 @@ Check out [./gatsby-ssr.js](./gatsby-ssr.js) and [./gatsby-browser.js](./gatsby-
 
 ## More information
 
-mobx-react-devtools package was removed. As it could generate [this error](https://github.com/mobxjs/mobx-react-devtools/issues/117). To allow access to the devtools install the plugin for your browser of choice like mentioned [here](https://github.com/mobxjs/mobx-devtools)
+mobx-react-devtools package is now deprecated and was removed. As it could generate [this error](https://github.com/mobxjs/mobx-react-devtools/issues/117).
+
+To allow access to some form of development tools, install the plugin for your browser of choice like mentioned [here](https://github.com/mobxjs/mobx-devtools)
 
 [Docs](https://mobx.js.org/)
 
