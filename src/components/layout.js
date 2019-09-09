@@ -1,10 +1,11 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { Link } from "gatsby"
+import {Link} from "gatsby"
 import Counter from "./Counter"
 
-const DefaultLayout = props => {
-  const { children } = props
+/* const DefaultLayout = props => {
+  const { children } = props */
+const DefaultLayout = ({children}) => {
   return (
     <div>
       <Link to="/">
@@ -28,6 +29,6 @@ const DefaultLayout = props => {
   )
 }
 DefaultLayout.propTypes = {
-  children: PropTypes.object.isRequired, // eslint-disable-line
+  children: PropTypes.object.isRequired
 }
 export default DefaultLayout
